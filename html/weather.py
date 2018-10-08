@@ -1,1 +1,0 @@
-/home/osmc/weather.py
