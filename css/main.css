@@ -1,0 +1,188 @@
+body {
+    font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+/*    background-color: #2b2b2e;*/
+    /*background-image: url(https://farm5.staticflickr.com/4463/24249389938_71e68a7a9a_k_d.jpg);*/
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+    margin: 0;
+    color:#ffffff;
+}
+
+.table {
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.10);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link { color: #ff9900; }
+a:visited { color: #dd7700; }
+a:hover { color: #ffaa00; }
+a:active { color: #0000FF; }
+margin: 30px;
+
+h1 a:link, h1 a:visited, h1 a:active, h1 a:hover {
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 2.3em;
+    text-decoration:none;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 10px 30px;
+}
+
+#header {
+    background: #1c1c1c; 
+    background-image: url(https://);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    text-align: center;
+}
+
+#main_body {
+    background-color: rgba(0, 0, 0, 0.70);
+    text-align: left;
+    padding: 15px;
+}
+#main_body img {
+    margin: 1em;
+    }
+
+#footer {
+    background-color: #1c1c1c;
+    color: #ff9900;
+    font-size: 75%;
+    padding: 5px;
+    text-align: center;
+    line-height: 150%;
+}
+#footer a{
+    text-align: center;
+    color: #ff9900;/*リンクの色 */
+}
+
+/* その他 */
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+li {
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+
+/* ▼メニューバー▼ */
+ul#menu_bar {
+font-size: 90%; /* 文字サイズ */
+font-weight: bold;
+height:30px; /* 高さ */
+background-color:#336699; /* 背景色 */
+padding-left:0px;
+margin-left:0px;
+margin-top:0px; /* 上の間隔 */
+margin-bottom:5px; /* 下の間隔 */
+}
+
+#menu_bar li {
+list-style-type:none;
+float:left;
+line-height:30px; /* 高さ */
+margin:0px;
+padding:0px;
+}
+
+#menu_bar li a {
+display:block;
+text-align:center;
+width:112.34px; /* １つのメニューボタンの幅 */
+border-right:1px solid #336699; /* 区切り線 */
+color:#ff9900; /* リンク文字の色 */
+background-color:#336699; /* メニューボタンの背景 */
+text-decoration:none;
+}
+
+#menu_bar li a:hover{
+color:#336699; /* マウスが乗ったときのリンク文字の色 */
+background-color:#ff9900; /* マウスが乗ったときの背景色 */
+text-decoration:none;
+}
+/* ▲メニューバー▲ */
+/* ▼メニューバー（ドロップダウン）▼ */
+
+#menu_bar ul {
+position:absolute;
+margin:0;
+padding:0;
+}
+
+#menu_bar li {
+position:relative;
+margin:0;
+padding:0;
+}
+
+#menu_bar li ul li {
+float:none;
+}
+
+#menu_bar li.menu ul,
+#menu_bar li.menu ul li.menu ul,
+#menu_bar li.menu_on ul li.menu ul {
+display:none;
+}
+
+#menu_bar li.menu_on ul {
+position:absolute;
+display:block;
+top:100%;
+left:0;
+}
+
+#menu_bar li.menu_on ul li.menu_on ul {
+position:absolute;
+display:block;
+top:0;
+left:100%;
+}
+
+/* ▽IE6バグ対応▽ */
+* html #menu_bar li li,
+* html #menu_bar li li li {
+font-size:1px;
+line-height:0;
+}
+* html #menu_bar li li a,
+* html #menu_bar li li li a {
+display:block;
+font-size:10pt;
+line-height:25px;
+}
+/* △IE6バグ対応△ */
+
+#menu_bar li li a,
+#menu_bar li li li a {
+border-top:1px solid #336699; /* 区切り線 */
+}
+
+/* ドロップダウンリストの透過（IE6以下未対応） */
+#menu_bar > li > ul {
+filter:alpha(opacity=75);
+-moz-opacity: 0.75;
+opacity: 0.75;
+}
+
+/* ▲メニューバー（ドロップダウン）▲ */

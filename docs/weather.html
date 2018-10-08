@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="/js/jquery.csvToTable.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+    <script src="/js/mychart.js"></script>
+	<!-- <base href="http://www.htmq.com/"> -->
+	<title>krglabo | Monitoring System</title>
+	<LINK rel="stylesheet" href="/css/main.css" type="text/css">
+	<table class="table" border="0" cellspacing="0" summary="outline">
+		<tr>
+				<td id="header"><h1>Karaage Labo</h1>
+					<h2></h2></br>
+	<a href="/">Top</a>/<a href="/?page=products">Products</a>
+
+</td></tr>
+</head>
+
+	<body>
+		<tr>
+			<td id="main_body">
+
+				<h1>Monitoring System</h1></br>
+				•BME280で温度・湿度・気圧を測定します．<br>
+				•センサー固有の異常値は除去します．<br>
+				•10分おきに計測し，javascriptでグラフを生成します．<br>
+				•湿度の目盛りは静的，温度の目盛りは動的です．<br>
+				•何らかの都合でRaspberry Piの電源が絶たれているときは，記録されません．<br>
+				•現在，空模様の撮影は停止していますが，サンプルは下部に掲載します．<br>
+				•<a href="https://www.jma.go.jp/jma/kishou/shinsei/kentei/faq.html" target="_blank">法令により気象観測には届け出が必要</a>なため，ここで表示されている内容は，あくまで室内状況の観測に過ぎないことを明記しておきます．<br>
+				<br>
+				<h1>茨城県つくば市</h1>
+					<h2>外の様子（過去のサンプル）</h2>
+					<img src="/img/outside_smp.jpg">
+					<h2>Indoor TEMP - PRES</h2>
+					<b>[稼動中]</b>今日の室内温度・湿度の推移です（10分おきに更新中）<br>
+					<div style="width: 100%; height: 90%;">
+						<canvas id="myChart" style="width: 100%; height: auto;"></canvas>
+					</div>
+					<div id="nowcast">JavaScriptを有効にしてください</div>
+					<!-- <img src="/docs/graph.png" align="left">
+					<div class="csv-table-convert">
+						<script>
+							$(function() {
+								$('.csv-table-convert').CSVToTable('/docs/weather.csv', 
+								{ 
+									headers: ['TEMP','PRES','HUMI','TS']
+								}
+								);
+							});
+						</script>
+					</div> -->
+				</td>
+			</tr>
+		</body>
+	</table>
+	</html>
