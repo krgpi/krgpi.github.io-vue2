@@ -25,7 +25,6 @@ hr {
 
 a {
     text-decoration: none;
-    margin: auto 16px;
 }
 
 a:link {
@@ -46,6 +45,7 @@ a:active {
 
 h1 {
     margin: 0px;
+    font-size: 32px;
 }
 
 h1 a:link,
@@ -54,15 +54,19 @@ h1 a:active,
 h1 a:hover {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1em;
     text-decoration: none;
 }
 
 h2 {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 24px;
     font-weight: normal;
     margin: 10px 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 8px 10px;
 }
 
 #header {
@@ -75,6 +79,10 @@ h2 {
 
 #header h1 {
     padding-top: 10px;
+}
+
+#header a {
+    margin: auto 16px;
 }
 
 div.container {
@@ -115,12 +123,13 @@ div#load_area {
 #footer a {
     text-align: center;
     color: #ff9900;
-    /*リンクの色 */
+    margin: auto 16px;
 }
 
 /* その他 */
 p {
     margin: 0 20px;
+    font-size: 14px;
     padding: 0;
     max-width: 40em;
     white-space: pre-line;
