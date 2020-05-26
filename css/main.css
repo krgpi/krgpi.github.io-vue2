@@ -70,8 +70,11 @@ h2 {
     background-image: url(https://);
     background-repeat: no-repeat;
     background-position: center;
-    height: 100px;
     text-align: center;
+}
+
+#header h1 {
+    padding-top: 10px;
 }
 
 div.container {
