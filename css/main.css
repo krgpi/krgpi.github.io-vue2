@@ -1,7 +1,7 @@
 body {
     font-family: 'Rajdhani', 'ヒラギノ角ゴ ProN W3', 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
-    /*    background-color: #2b2b2e;*/
     /*background-image: url(https://farm5.staticflickr.com/4463/24249389938_71e68a7a9a_k_d.jpg);*/
+    background-color: rgba(0, 0, 0, 0.70);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -81,9 +81,8 @@ div.container {
 }
 
 #main_body {
-    background-color: rgba(0, 0, 0, 0.70);
     text-align: left;
-    margin: 0 0;
+    margin: auto auto auto;
     padding: 15px;
 }
 
