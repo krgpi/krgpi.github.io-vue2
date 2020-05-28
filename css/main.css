@@ -71,7 +71,7 @@ h3 {
 }
 
 #header {
-    background: #1c1c1c;
+    background: #000022;
     background-image: url(https://);
     background-repeat: no-repeat;
     background-position: center;
@@ -109,7 +109,7 @@ div#load_area {
 }
 
 #footer {
-    background-color: #1c1c1c;
+    background-color: #000022;
     color: #ff9900;
     width: 100%;
     text-align: center;
