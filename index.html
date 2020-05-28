@@ -24,11 +24,15 @@
             });
         });
         $(document).ready(function() {
+            $("#go_act").click(function() {
+                $("#load_area").load("./docs/activities.html");
+            });
+        });
+        $(document).ready(function() {
             $("#go_abm").click(function() {
                 $("#load_area").load("./docs/aboutme.html");
             });
         });
-
     </script>
     <title>Karaage</title>
     <div id="header">
@@ -36,6 +40,7 @@
         <a href="#" id="go_top">Top</a>
         <a href="#" id="go_prd">Jobs</a>
         <a href="#" id="go_wrk">Works</a>
+        <a href="#" id="go_act">Activity</a>
         <a href="#" id="go_abm">Career</a>
     </div>
 </head>
@@ -58,7 +63,4 @@
 
 <script type="text/javascript">
     $("#load_area").load("./docs/top.html");
-
-</script>
-
-</html>
+</script></html>
