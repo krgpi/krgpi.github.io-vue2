@@ -106,6 +106,7 @@ div.container {
     text-align: left;
     margin: auto auto auto;
     padding: 15px;
+    padding-bottom: 65px;
 }
 
 #main_body img {
@@ -114,7 +115,6 @@ div.container {
 
 div#load_area {
     margin: auto auto 0;
-    padding-bottom: 65px;
 }
 
 #footer {
