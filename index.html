@@ -9,31 +9,35 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#go_top").click(function() {
+            $("[id^=go_top]").click(function() {
                 $("#load_area").load("./docs/top.html");
             });
         });
         $(document).ready(function() {
-            $("#go_prd").click(function() {
+            $("[id^=#go_prd]").click(function() {
                 $("#load_area").load("./docs/products.html");
             });
         });
         $(document).ready(function() {
-            $("#go_wrk").click(function() {
+            $("[id^=go_wrk]").click(function() {
                 $("#load_area").load("./docs/works.html");
             });
         });
         $(document).ready(function() {
-            $("#go_act").click(function() {
+            $("[id^=go_gle]").click(function() {
+                $("#load_area").load("./docs/gallery.html");
+            });
+        });
+        $(document).ready(function() {
+            $("[id^=go_act]").click(function() {
                 $("#load_area").load("./docs/activities.html");
             });
         });
         $(document).ready(function() {
-            $("#go_abm").click(function() {
+            $("[id^=go_abm]").click(function() {
                 $("#load_area").load("./docs/aboutme.html");
             });
         });
-
     </script>
     <title>Karaage</title>
     <div id="header">
@@ -41,6 +45,7 @@
         <a href="#" id="go_top">Top</a>
         <a href="#" id="go_prd">Jobs</a>
         <a href="#" id="go_wrk">Works</a>
+        <a href="#" id="go_gle">Gallery</a>
         <a href="#" id="go_act">Activity</a>
         <a href="#" id="go_abm">Career</a>
     </div>
@@ -50,23 +55,37 @@
     <div id="main_body">
         <div id="load_area" style="max-width: 600px;">
         </div>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="container" style="max-width: 600px; margin: 0 auto;">
+            <h1>Contents</h1>
+            <a class="category-box" href="#" id="go_gle_bottom">
+                <h2>Gallery</h2>
+                <p>フォトギャラリー</p>
+            </a>
+            <a class="category-box" href="#" id="go_prd_bottom">
+                <h2>Jobs</h2>
+                <p>主にエンジニアとしての職について。現職や職歴など。</p>
+            </a>
+            <a class="category-box" href="#" id="go_wrk_bottom">
+                <h2>Works</h2>
+                <p>これまで発表した作品やリリースしたサービスなどの一覧。</p>
+            </a>
+            <a class="category-box" href="#" id="go_act_bottom">
+                <h2>Activity</h2>
+                <p>現在主に更新しているSNSや配信サービスのまとめ。</p>
+            </a>
+            <a class="category-box" href="#" id="go_abm_bottom">
+                <h2>Career</h2>
+                <p>経歴。</p>
+            </a>
+        </div>
     </div>
 </body>
 <footer>
     <div id="footer">
-        <a href="krgpi/index.html">Top</a>
-        <a href="https://agelog.hateblo.jp/" target="_blank">Blog</a>
-        <a href="https://www.instagram.com/caraage81/" target="_blank">Instagram</a>
-        <a href="https://github.com/krgpi" target="_blank">GitHub</a>
-        <a href="https://www.flickr.com/photos/79438375@N08/albums" target="_blank">Flickr</a>
         <p>Copyright &copy; 2015-2020 krgpi all rights reserved.</p>
     </div>
 </footer>
 
 <script type="text/javascript">
     $("#load_area").load("./docs/top.html");
-
-</script>
-
-</html>
+</script></html>

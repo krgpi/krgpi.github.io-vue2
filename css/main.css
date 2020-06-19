@@ -93,6 +93,15 @@ div.container {
     justify-content: center;
 }
 
+.category-box {
+    width: 100%;
+    border-radius: 8px;
+    margin: 8px 0px;
+    background: #4c4c4c;
+    box-shadow: 6px 6px 10px #434343,
+        -6px -6px 10px #555555;
+}
+
 #main_body {
     text-align: left;
     margin: auto auto auto;
