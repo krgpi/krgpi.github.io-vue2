@@ -11,15 +11,6 @@ body {
     width: 100%;
 }
 
-.table {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.10);
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 hr {
     margin: 20px 0px;
 }
@@ -127,7 +118,6 @@ div#load_area {
     bottom: 0;
     left: 0;
     right: 0;
-
 }
 
 #footer a {
@@ -153,38 +143,22 @@ p {
     word-break: normal;
 }
 
-ul {
-    margin: 0;
-    padding: 0 0 0 1em;
-}
-
-li {
-    margin: 0 0 3px 0;
-    padding: 0;
-}
-
 /* ▼メニューバー▼ */
 ul#menu_bar {
     font-size: 90%;
-    /* 文字サイズ */
     font-weight: bold;
     height: 30px;
-    /* 高さ */
     background-color: #336699;
-    /* 背景色 */
     padding-left: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    /* 上の間隔 */
     margin-bottom: 5px;
-    /* 下の間隔 */
 }
 
 #menu_bar li {
     list-style-type: none;
     float: left;
     line-height: 30px;
-    /* 高さ */
     margin: 0px;
     padding: 0px;
 }
@@ -193,90 +167,14 @@ ul#menu_bar {
     display: block;
     text-align: center;
     width: 112.34px;
-    /* １つのメニューボタンの幅 */
     border-right: 1px solid #336699;
-    /* 区切り線 */
     color: #ff9900;
-    /* リンク文字の色 */
     background-color: #336699;
-    /* メニューボタンの背景 */
     text-decoration: none;
 }
 
 #menu_bar li a:hover {
     color: #336699;
-    /* マウスが乗ったときのリンク文字の色 */
     background-color: #ff9900;
-    /* マウスが乗ったときの背景色 */
     text-decoration: none;
 }
-
-/* ▲メニューバー▲ */
-/* ▼メニューバー（ドロップダウン）▼ */
-
-#menu_bar ul {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-}
-
-#menu_bar li {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-#menu_bar li ul li {
-    float: none;
-}
-
-#menu_bar li.menu ul,
-#menu_bar li.menu ul li.menu ul,
-#menu_bar li.menu_on ul li.menu ul {
-    display: none;
-}
-
-#menu_bar li.menu_on ul {
-    position: absolute;
-    display: block;
-    top: 100%;
-    left: 0;
-}
-
-#menu_bar li.menu_on ul li.menu_on ul {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 100%;
-}
-
-/* ▽IE6バグ対応▽ */
-* html #menu_bar li li,
-* html #menu_bar li li li {
-    font-size: 1px;
-    line-height: 0;
-}
-
-* html #menu_bar li li a,
-* html #menu_bar li li li a {
-    display: block;
-    font-size: 10pt;
-    line-height: 25px;
-}
-
-/* △IE6バグ対応△ */
-
-#menu_bar li li a,
-#menu_bar li li li a {
-    border-top: 1px solid #336699;
-    /* 区切り線 */
-}
-
-/* ドロップダウンリストの透過（IE6以下未対応） */
-#menu_bar > li > ul {
-    filter: alpha(opacity=75);
-    -moz-opacity: 0.75;
-    opacity: 0.75;
-}
-
-/* ▲メニューバー（ドロップダウン）▲ */
