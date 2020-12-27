@@ -90,6 +90,7 @@ h3 {
 div.container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .category-box {
@@ -132,6 +133,10 @@ div#load_area {
 #footer a {
     color: #ff9900;
     margin: auto 0px;
+}
+
+#footer div.container {
+    justify-content: left;
 }
 
 #copyright {
