@@ -62,12 +62,12 @@ h2 {
     color: #ffffff;
     font-size: 24px;
     font-weight: normal;
-    margin: 10px 10px;
+    margin: 10px 0px;
 }
 
 h3 {
     font-size: 18px;
-    margin: 8px 10px;
+    margin: 8px 0px;
 }
 
 #header {
@@ -139,7 +139,7 @@ div#load_area {
 
 /* その他 */
 p {
-    margin: 0 20px;
+    margin: 0 0px;
     font-size: 14px;
     padding: 0;
     max-width: 40em;
