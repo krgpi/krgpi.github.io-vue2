@@ -135,7 +135,7 @@ div#load_area {
 
 /* その他 */
 p {
-    margin: 0 0px;
+    margin: 0px 0px 8px;
     font-size: 14px;
     padding: 0;
     max-width: 40em;
