@@ -3,19 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width,initial-scale=1.0"
-  >
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
-    rel="stylesheet"
-  >
-  <link
-    rel="stylesheet"
-    href="./css/main.css"
-    type="text/css"
-  >
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
@@ -24,12 +14,12 @@
       });
     });
     $(document).ready(function () {
-      $("[id^=go_prd]").click(function () {
+      $("[id^=go_products]").click(function () {
         $("#load_area").load("./docs/products.html");
       });
     });
     $(document).ready(function () {
-      $("[id^=go_wrk]").click(function () {
+      $("[id^=go_works]").click(function () {
         $("#load_area").load("./docs/works.html");
       });
     });
@@ -39,12 +29,12 @@
       });
     });
     $(document).ready(function () {
-      $("[id^=go_act]").click(function () {
+      $("[id^=go_activity]").click(function () {
         $("#load_area").load("./docs/activities.html");
       });
     });
     $(document).ready(function () {
-      $("[id^=go_abm]").click(function () {
+      $("[id^=go_aboutme]").click(function () {
         $("#load_area").load("./docs/aboutme.html");
       });
     });
@@ -52,91 +42,26 @@
   </script>
   <title>krgpi - Portfolio</title>
   <div id="header">
-    <h1><a
-      href="#"
-      id="go_top"
-    >Portfolio</a></h1>
-    <a
-      href="#"
-      id="go_gle"
-    >Gallery</a>
-    <a
-      href="#"
-      id="go_prd"
-    >Jobs</a>
-    <a
-      href="#"
-      id="go_wrk"
-    >Works</a>
-    <a
-      href="#"
-      id="go_act"
-    >Activity</a>
-    <a
-      href="#"
-      id="go_abm"
-    >Career</a>
+    <h1><a href="#" id="go_top">Portfolio</a></h1>
+    <a href="#" id="go_gle">Gallery</a>
+    <a href="#" id="go_products">Jobs</a>
+    <a href="#" id="go_works">Works</a>
+    <a href="#" id="go_activity">Activity</a>
+    <a href="#" id="go_aboutme">Career</a>
   </div>
 </head>
 
 <body>
-<div id="main_body">
-  <div
-    id="load_area"
-    style="max-width: 600px;"
-  >
-  </div>
+  <div id="main_body">
+    <div id="load_area" style="max-width: 600px;">
+    </div>
 
-</div>
+  </div>
 </body>
 <footer>
   <div id="footer">
-    <div
-      class="container"
-      style="max-width: 600px; margin: 0 auto;"
-    >
+    <div class="container" style="max-width: 600px; margin: 0 auto;">
       <div clsss="item">
-        <h1>Contents</h1>
-        <a
-          class="category-box"
-          href="#"
-          id="go_gle_bottom"
-        >
-          <h2>Gallery</h2>
-          <p>撮影した写真のフォトギャラリー</p>
-        </a>
-        <a
-          class="category-box"
-          href="#"
-          id="go_prd_bottom"
-        >
-          <h2>Jobs</h2>
-          <p>主にエンジニアとしての現職や職歴など。</p>
-        </a>
-        <a
-          class="category-box"
-          href="#"
-          id="go_wrk_bottom"
-        >
-          <h2>Works</h2>
-          <p>これまで発表した作品やリリースしたサービスなどの一覧。</p>
-        </a>
-        <a
-          class="category-box"
-          href="#"
-          id="go_act_bottom"
-        >
-          <h2>Activity</h2>
-          <p>現在主に更新しているSNSや配信サービスのまとめ。</p>
-        </a>
-        <a
-          class="category-box"
-          href="#"
-          id="go_abm_bottom"
-        >
-          <h2>Career</h2>
-          <p>経歴。</p>
-        </a>
         <p id="copyright">Copyright &copy; 2015-2020 krgpi all rights reserved.</p>
       </div>
     </div>
