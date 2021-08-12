@@ -6,16 +6,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
-  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $("[id^=go_top]").click(function () {
         $("#load_area").load("./docs/top.html");
-      });
-    });
-    $(document).ready(function () {
-      $("[id^=go_products]").click(function () {
-        $("#load_area").load("./docs/products.html");
       });
     });
     $(document).ready(function () {
@@ -29,11 +24,6 @@
       });
     });
     $(document).ready(function () {
-      $("[id^=go_activity]").click(function () {
-        $("#load_area").load("./docs/activities.html");
-      });
-    });
-    $(document).ready(function () {
       $("[id^=go_aboutme]").click(function () {
         $("#load_area").load("./docs/aboutme.html");
       });
@@ -44,9 +34,7 @@
   <div id="header">
     <h1><a href="#" id="go_top">Portfolio</a></h1>
     <a href="#" id="go_gle">Gallery</a>
-    <a href="#" id="go_products">Jobs</a>
     <a href="#" id="go_works">Works</a>
-    <a href="#" id="go_activity">Activity</a>
     <a href="#" id="go_aboutme">Career</a>
   </div>
 </head>
