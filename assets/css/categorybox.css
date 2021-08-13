@@ -1,0 +1,8 @@
+.category-box {
+  width: 100%;
+  margin: 8px 0px;
+  border-radius: 16px;
+  padding: 0px 8px 8px;
+  background: #000022;
+  box-shadow: 6px 6px 10px #35355c, -6px -6px 10px #404069;
+}
