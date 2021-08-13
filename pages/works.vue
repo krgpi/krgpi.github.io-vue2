@@ -12,7 +12,7 @@
         <b>サービス概要</b>
         <div class="container">
           <div class="item" width="100px">
-            <img src="img/ideoj_logo_alpha.png" width="100px" />
+            <img src="/img/ideoj_logo_alpha.png" width="100px" />
           </div>
           <div class="item" style="max-width: 400px;">
             <p>
@@ -34,7 +34,7 @@
         <h1>2018</h1>
         <h2>Photobook</h2>
         <h3>reunion vol.1 2018.11</h3>
-        <img src="img/reunion_small.png" height="200px" />
+        <img src="/img/reunion_small.png" height="200px" />
         <p>
           平成30年11月3日,4日に筑波大学雙峰祭(芸術祭)の写真部写真展
           場所：筑波大学5C棟513室にて、オリジナル写真集"reunion -
@@ -60,7 +60,7 @@
         <b>サービス概要</b>
         <div class="container">
           <div class="item" width="100px">
-            <img src="img/AR_rogo.jpg" width="100px" />
+            <img src="/img/AR_rogo.jpg" width="100px" />
           </div>
 
           <div class="item" style="max-width: 400px;">
@@ -91,7 +91,7 @@
         <p>
           自身初の初のフォトブック。テーマを猫に絞り、ひたすら猫の写真を載せまくった一冊。
         </p>
-        <img src="img/nekono_sekai.jpg" height="200px" />
+        <img src="/img/nekono_sekai.jpg" height="200px" />
       </div>
     </div>
   </div>

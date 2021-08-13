@@ -3,7 +3,7 @@
     <div class="body_container">
       <div class="container">
         <div class="item">
-          <img src="img/karaage_free.jpg" alt="icon" width="250px" />
+          <img src="/img/karaage_free.jpg" alt="icon" width="250px" />
         </div>
         <div class="item category-box" style="max-width: 500px">
           <h1><b>カラアゲ / iKaraage</b></h1>
