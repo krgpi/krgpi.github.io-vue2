@@ -1,0 +1,35 @@
+/* ▼メニューバー▼ */
+ul#menu_bar {
+  font-size: 90%;
+  font-weight: bold;
+  height: 30px;
+  background-color: #336699;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#menu_bar li {
+  list-style-type: none;
+  float: left;
+  line-height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu_bar li a {
+  display: block;
+  text-align: center;
+  width: 112.34px;
+  border-right: 1px solid #336699;
+  color: #ff9900;
+  background-color: #336699;
+  text-decoration: none;
+}
+
+#menu_bar li a:hover {
+  color: #336699;
+  background-color: #ff9900;
+  text-decoration: none;
+}

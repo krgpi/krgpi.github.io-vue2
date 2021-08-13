@@ -1,0 +1,16 @@
+#header {
+  background: #000022;
+  background-image: url(https://);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+}
+
+#header h1 {
+  padding-top: 10px;
+}
+
+#header a {
+  margin: auto 16px;
+}
