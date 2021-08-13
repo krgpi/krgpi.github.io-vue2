@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./flexbox.css");
+@import url("./categorybox.css");
 
 body {
   font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
