@@ -1,6 +1,6 @@
 <template>
-  <div id="main_body">
-    <div id="load_area" style="max-width: 600px">
+  <div class="main_body">
+    <div class="body_container">
       <h1>Works - 過去作</h1>
       <h1>2020</h1>
       <h3><a href="https://letero.jp" target="_blank">Letero.jp</a></h3>

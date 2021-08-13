@@ -1,6 +1,6 @@
 <template>
-  <div id="main_body">
-    <div id="load_area" style="max-width: 600px">
+  <div class="main_body">
+    <div class="body_container">
       <h2 style="text-align: center">
         Gallery
       </h2>

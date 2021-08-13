@@ -1,180 +1,181 @@
 body {
-    font-family: 'Rajdhani', 'ヒラギノ角ゴ ProN W3', 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
-    /*background-image: url(https://farm5.staticflickr.com/4463/24249389938_71e68a7a9a_k_d.jpg);*/
-    background-color: rgba(0, 0, 0, 0.70);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    color: #ffffff;
-    width: 100%;
+  font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
+    "Hiragino Kaku Gothic ProN", "Meiryo", "メイリオ", sans-serif;
+  /*background-image: url(https://farm5.staticflickr.com/4463/24249389938_71e68a7a9a_k_d.jpg);*/
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  color: #ffffff;
+  width: 100%;
 }
 
 hr {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:link {
-    color: #ff9900;
+  color: #ff9900;
 }
 
 a:visited {
-    color: #dd7700;
+  color: #dd7700;
 }
 
 a:hover {
-    color: #ffaa00;
+  color: #ffaa00;
 }
 
 a:active {
-    color: #0000FF;
+  color: #0000ff;
 }
 
 h1 {
-    margin: 0px;
-    font-size: 32px;
+  margin: 0px;
+  font-size: 32px;
 }
 
 h1 a:link,
 h1 a:visited,
 h1 a:active,
 h1 a:hover {
-    color: #ffffff;
-    text-decoration: none;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration: none;
 }
 
 h2 {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: normal;
-    margin: 10px 0px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 10px 0px;
 }
 
 h3 {
-    font-size: 18px;
-    margin: 8px 0px;
+  font-size: 18px;
+  margin: 8px 0px;
 }
 
 #header {
-    background: #000022;
-    background-image: url(https://);
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    width: 100%;
+  background: #000022;
+  background-image: url(https://);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  width: 100%;
 }
 
 #header h1 {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 #header a {
-    margin: auto 16px;
+  margin: auto 16px;
 }
 
 div.container {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .category-box {
-    width: 100%;
-    margin: 8px 0px;
-    border-radius: 16px;
-    padding: 0px 8px 8px;
-    background: #000022;
-    box-shadow: 6px 6px 10px #35355c,
-        -6px -6px 10px #404069;
+  width: 100%;
+  margin: 8px 0px;
+  border-radius: 16px;
+  padding: 0px 8px 8px;
+  background: #000022;
+  box-shadow: 6px 6px 10px #35355c, -6px -6px 10px #404069;
 }
 
-#main_body {
-    text-align: left;
-    margin: auto auto auto;
-    padding: 15px;
-    padding-bottom: 65px;
+.main_body {
+  text-align: left;
+  margin: auto auto auto;
+  padding: 15px;
+  padding-bottom: 65px;
 }
 
-#main_body img {
-    margin: 1em;
+.main_body img {
+  margin: 1em;
 }
 
-div#load_area {
-    margin: auto auto 0;
+div.body_container {
+  margin: auto auto 0;
+  max-width: 600px;
 }
 
 #footer {
-    background-color: #000022;
-    color: #ffffff;
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  background-color: #000022;
+  color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #footer a {
-    color: #ff9900;
-    margin: auto 0px;
+  color: #ff9900;
+  margin: auto 0px;
 }
 
 #footer div.container {
-    justify-content: left;
+  justify-content: left;
 }
 
 #copyright {
-    margin: 16px 0px;
+  margin: 16px 0px;
 }
 
 /* その他 */
 p {
-    margin: 0px 0px 8px;
-    font-size: 14px;
-    padding: 0;
-    max-width: 40em;
-    white-space: pre-line;
-    word-break: normal;
+  margin: 0px 0px 8px;
+  font-size: 14px;
+  padding: 0;
+  max-width: 40em;
+  white-space: pre-line;
+  word-break: normal;
 }
 
 /* ▼メニューバー▼ */
 ul#menu_bar {
-    font-size: 90%;
-    font-weight: bold;
-    height: 30px;
-    background-color: #336699;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+  font-size: 90%;
+  font-weight: bold;
+  height: 30px;
+  background-color: #336699;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 #menu_bar li {
-    list-style-type: none;
-    float: left;
-    line-height: 30px;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  float: left;
+  line-height: 30px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #menu_bar li a {
-    display: block;
-    text-align: center;
-    width: 112.34px;
-    border-right: 1px solid #336699;
-    color: #ff9900;
-    background-color: #336699;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 112.34px;
+  border-right: 1px solid #336699;
+  color: #ff9900;
+  background-color: #336699;
+  text-decoration: none;
 }
 
 #menu_bar li a:hover {
-    color: #336699;
-    background-color: #ff9900;
-    text-decoration: none;
+  color: #336699;
+  background-color: #ff9900;
+  text-decoration: none;
 }

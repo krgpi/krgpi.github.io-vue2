@@ -1,6 +1,6 @@
 <template>
-  <div id="main_body">
-    <div id="load_area" style="max-width: 600px">
+  <div class="main_body">
+    <div class="body_container">
       <div class="container">
         <div class="item">
           <img src="img/karaage_free.jpg" alt="icon" width="250px" />
@@ -22,4 +22,3 @@
     </div>
   </div>
 </template>
-
