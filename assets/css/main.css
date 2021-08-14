@@ -3,6 +3,11 @@
 @import url("./flexbox.css");
 @import url("./categorybox.css");
 
+html, * {
+    font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
+    "Hiragino Kaku Gothic ProN", "Meiryo", "メイリオ", sans-serif;
+}
+
 body {
   font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
     "Hiragino Kaku Gothic ProN", "Meiryo", "メイリオ", sans-serif;
@@ -18,9 +23,6 @@ body {
 }
 
 p {
-  margin: 0px 0px 8px;
-  font-size: 14px;
-  padding: 0;
   max-width: 40em;
   white-space: pre-line;
   word-break: normal;
@@ -50,36 +52,22 @@ a:active {
   color: #0000ff;
 }
 
-h1 {
-  margin: 0px;
-  font-size: 32px;
-}
-
 h1 a:link,
 h1 a:visited,
 h1 a:active,
 h1 a:hover {
   color: #ffffff;
   text-decoration: none;
-  text-decoration: none;
 }
 
 h2 {
   color: #ffffff;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 10px 0px;
-}
-
-h3 {
-  font-size: 18px;
-  margin: 8px 0px;
 }
 
 .main_body {
   text-align: left;
   margin: auto auto auto;
-  padding: 15px;
+  padding: 8px;
   padding-bottom: 65px;
 }
 
@@ -89,5 +77,5 @@ h3 {
 
 div.body_container {
   margin: auto auto 0;
-  max-width: 600px;
+  max-width: 800px;
 }

@@ -22,6 +22,11 @@ export default {
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css"
       }
     ]
   },
