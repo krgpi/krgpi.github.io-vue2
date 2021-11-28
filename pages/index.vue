@@ -1,46 +1,60 @@
 <template>
   <div class="main_body">
     <div class="body_container">
-      <div class="container">
-        <div class="item">
+      <div class="container" style="align-items: center">
+        <div class="col-md-4 item" style="padding: 16px;">
           <img
-            src="/img/karaage_free.jpg"
+            src="/img/karaage_free.png"
             alt="icon"
-            style="border-radius: 50%; margin: 8px; max-width: 200px"
+            style="border-radius: 50%; margin: 0"
           >
         </div>
-        <div class="item" style="align-self: center">
-          <h1><b>カラアゲ / iKaraage</b></h1>
-          <h3>Cinephotographer, Engineer</h3>
+        <div class="col-md-8 item" style="align-self: center">
+          <h1><b>カラアゲ / Karaage</b></h1>
+          <h3>Engineer (<a href="https://twitter.com/krgpi" target="blank">@krgpi</a>) / Cinephotographer (<a href="https://www.instagram.com/caraage_films/" target="blank">@Caraage_films</a>)</h3>
           <p>
-            keywords: iOS, Nuxt.js, Go, AWS, GCP, プロダクト志向
-            プロダクトマネージャー, α７ｓⅢ, 星景写真, 戦略と狂気, 破壊と創造
+            iOSアプリエンジニア。最近ではプロダクトマネージャーの仕事にも力を入れる。根っからのプロダクト志向を持ち、10年近く様々なジャンルで制作活動を続けている。
+          </p>
+          <p>
+            keywords: UIKit, SwiftUI, Nuxt.js, Go, AWS, GCP, プロダクト志向
+            プロダクトマネージャー, 星景写真, 戦略と狂気, 破壊と創造
           </p>
         </div>
-
+      </div>
+      <div class="container">
         <div>
           <h1>最新情報</h1>
 
           <div class="container">
-            <div class="row">
-              <div class="col-sm item category-box">
-                <h2>
-                  <a href="https://agelog.hateblo.jp" target="blank">agelog</a>
-                </h2>
-                <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
-              </div>
+            <div class="col-md-6 item category-box">
+              <h2>
+                <a href="https://agelog.hateblo.jp" target="blank">blog</a>
+              </h2>
+              <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
+            </div>
 
-              <div class="col-sm item category-box">
-                <h2>
-                  <a href="https://ikaraage.fanbox.cc" target="blank">fanbox</a>
-                </h2>
-                <p>その瞬間に感じたことや考えたことなど、頭の中にあるものを断片的でも小出しで投稿していく。</p>
-              </div>
+            <div class="col-md-6 item category-box">
+              <h2>
+                <a href="https://ikaraage.fanbox.cc" target="blank">fanbox</a>
+              </h2>
+              <p>その瞬間に感じたことや考えたことなど、頭の中にあるものを断片的でも小出しで投稿していく。</p>
+            </div>
+            <div class="col-md-6 item category-box">
+              <h2>
+                <a href="https://zenn.dev/karaage" target="blank">zenn</a>
+              </h2>
+              <p>技術的な知見を書き残すテックブログ。</p>
+            </div>
+            <div class="col-md-6 item category-box">
+              <h2>
+                <a href="https://scrapbox.io/krgpi/" target="blank">scrapbox</a>
+              </h2>
+              <p>調べたことをまとめておく場所。</p>
             </div>
           </div>
         </div>
         <div>
-          <h2>おすすめ記事</h2>
+          <h1>おすすめ記事</h1>
           <div class="container">
             <h3>開発</h3>
             <ul>
@@ -80,12 +94,13 @@
                   target="blank"
                 >α7s3で初めてちゃんと夜景の写真を撮ったら綺麗すぎた - 揚げログ</a>
               </li>
+              <li>
+                <a href="/gallery">Gallery</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
   </div>
 </template>
