@@ -28,6 +28,10 @@ p {
   word-break: normal;
 }
 
+::selection {
+  background: #dd7700;
+}
+
 hr {
   margin: 20px 0px;
 }
@@ -77,5 +81,9 @@ h2 {
 
 div.body_container {
   margin: auto auto 0;
-  max-width: 800px;
+  max-width: 900px;
+}
+
+li {
+  margin-bottom: 8px;
 }
