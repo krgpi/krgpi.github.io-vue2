@@ -53,6 +53,6 @@ export default {
   build: {},
 
   generate: {
-    dir: "../krgpi_github_io"
+    dir: "./docs"
   }
 };
