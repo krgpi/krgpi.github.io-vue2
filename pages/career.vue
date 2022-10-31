@@ -3,6 +3,11 @@
     <div class="body_container">
       <h1>Career - 経歴</h1>
       <div class="category-box">
+        <h2>2021.1-</h2>
+        <p><b>株式会社WindHole</b></p>
+        <p>プロダクトマネージャー・Flutterアプリの開発等</p>
+      </div>
+      <div class="category-box">
         <h2>2019.6-</h2>
         <p><b>ピクシブ株式会社</b></p>
         <p>iOSアプリの開発等</p>
@@ -22,7 +27,7 @@
         <p><b>産業技術総合研究所（AIST）</b></p>
         <p>２号契約職員(テクニカルスタッフ)として研究活動補助等</p>
       </div>
-      <hr />
+      <hr>
       <div class="category-box">
         <h2>2021.3</h2>
         <p>

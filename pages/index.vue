@@ -33,12 +33,8 @@
               <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
             </div>
 
-            <div class="col-md-6 item category-box">
-              <h2>
-                <a href="https://ikaraage.fanbox.cc" target="blank">fanbox</a>
-              </h2>
-              <p>その瞬間に感じたことや考えたことなど、頭の中にあるものを断片的でも小出しで投稿していく。</p>
-            </div>
+            <div class="col-md-6 item " />
+
             <div class="col-md-6 item category-box">
               <h2>
                 <a href="https://zenn.dev/karaage" target="blank">zenn</a>
