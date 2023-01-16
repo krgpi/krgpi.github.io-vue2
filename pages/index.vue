@@ -1,26 +1,31 @@
 <template>
   <div class="main_body">
     <div class="body_container">
-      <div class="container" style="align-items: center">
-        <div class="col-md-4 item" style="padding: 16px;">
+      <div class="container">
+        <div>
           <img
             src="/img/karaage_free.png"
             alt="icon"
-            style="border-radius: 50%; margin: 0"
+            style="border-radius: 50%; max-width: 48px;"
           >
         </div>
-        <div class="col-md-8 item" style="align-self: center">
+        <div>
           <h1><b>カラアゲ / Karaage</b></h1>
           <h3>Engineer (<a href="https://twitter.com/krgpi" target="blank">@krgpi</a>) / Cinephotographer (<a href="https://www.instagram.com/caraage_films/" target="blank">@Caraage_films</a>)</h3>
-          <p>
-            iOSアプリエンジニア。最近ではプロダクトマネージャーの仕事にも力を入れる。根っからのプロダクト志向を持ち、10年近く様々なジャンルで制作活動を続けている。Google Professional Cloud Developerを保有。
-          </p>
-          <p>
-            keywords: UIKit, SwiftUI, Flutter, Figma, Next.js, Go, AWS, GCP, プロダクト志向, アジャイル, スクラム
-            プロダクトマネージャー, 星景写真, 戦略と狂気, 破壊と創造
-          </p>
         </div>
       </div>
+      <div>
+        <p>
+          スタートアップの立ち上げや成長をエンジニアリング面、プロダクトマネジメント面から支える仕事をしてます。またiOSアプリエンジニアとしても活動しています。根っからのプロダクト志向を持ち、10年近く様々なジャンルで制作活動を続けています。
+        </p>
+        <p>
+          skills: UIKit, SwiftUI, Flutter, Figma, Next.js, Go, AWS, GCP(Google Professional Cloud Developerを保有), アジャイル, スクラム, チームビルディング,
+          プロダクトマネジメント, サービス設計, 事業戦略
+          <br>
+          keywords: プロダクト志向, 戦略と狂気, 破壊と創造
+        </p>
+      </div>
+
       <div>
         <h1>最新情報</h1>
 

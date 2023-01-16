@@ -25,7 +25,7 @@ body {
 
 p {
   max-width: 40em;
-  white-space: pre-line;
+  white-space: normal;
   word-break: normal;
 }
 
@@ -74,10 +74,6 @@ h2 {
   margin: auto auto auto;
   padding: 8px;
   padding-bottom: 65px;
-}
-
-.main_body img {
-  margin: 1em;
 }
 
 div.body_container {

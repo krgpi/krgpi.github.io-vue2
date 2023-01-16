@@ -8,6 +8,7 @@
       <a href="/">Home</a>
       <a href="/works">Works</a>
       <a href="/activities">Activities</a>
+      <a href="/releases">Releases</a>
       <a href="/career">Career</a>
     </div>
   </div>
