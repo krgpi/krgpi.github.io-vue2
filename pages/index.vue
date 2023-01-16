@@ -13,40 +13,36 @@
           <h1><b>カラアゲ / Karaage</b></h1>
           <h3>Engineer (<a href="https://twitter.com/krgpi" target="blank">@krgpi</a>) / Cinephotographer (<a href="https://www.instagram.com/caraage_films/" target="blank">@Caraage_films</a>)</h3>
           <p>
-            iOSアプリエンジニア。最近ではプロダクトマネージャーの仕事にも力を入れる。根っからのプロダクト志向を持ち、10年近く様々なジャンルで制作活動を続けている。
+            iOSアプリエンジニア。最近ではプロダクトマネージャーの仕事にも力を入れる。根っからのプロダクト志向を持ち、10年近く様々なジャンルで制作活動を続けている。Google Professional Cloud Developerを保有。
           </p>
           <p>
-            keywords: UIKit, SwiftUI, Nuxt.js, Go, AWS, GCP, プロダクト志向
+            keywords: UIKit, SwiftUI, Flutter, Figma, Next.js, Go, AWS, GCP, プロダクト志向, アジャイル, スクラム
             プロダクトマネージャー, 星景写真, 戦略と狂気, 破壊と創造
           </p>
         </div>
       </div>
-      <div class="container">
-        <div>
-          <h1>最新情報</h1>
+      <div>
+        <h1>最新情報</h1>
 
-          <div class="container">
-            <div class="col-md-6 item category-box">
-              <h2>
-                <a href="https://agelog.hateblo.jp" target="blank">blog</a>
-              </h2>
-              <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
-            </div>
+        <div class="container">
+          <div class="col-md-6 item category-box">
+            <h2>
+              <a href="https://agelog.hateblo.jp" target="blank">blog</a>
+            </h2>
+            <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
+          </div>
 
-            <div class="col-md-6 item " />
-
-            <div class="col-md-6 item category-box">
-              <h2>
-                <a href="https://zenn.dev/karaage" target="blank">zenn</a>
-              </h2>
-              <p>技術的な知見を書き残すテックブログ。</p>
-            </div>
-            <div class="col-md-6 item category-box">
-              <h2>
-                <a href="https://scrapbox.io/krgpi/" target="blank">scrapbox</a>
-              </h2>
-              <p>調べたことをまとめておく場所。</p>
-            </div>
+          <div class="col-md-6 item category-box">
+            <h2>
+              <a href="https://zenn.dev/karaage" target="blank">zenn</a>
+            </h2>
+            <p>技術的な知見を書き残すテックブログ。</p>
+          </div>
+          <div class="col-md-6 item category-box">
+            <h2>
+              <a href="https://scrapbox.io/krgpi/" target="blank">scrapbox</a>
+            </h2>
+            <p>調べたことをまとめておく場所。</p>
           </div>
         </div>
         <div>
@@ -78,6 +74,12 @@
                   href="https://agelog.hateblo.jp/entry/ideoj"
                   target="blank"
                 >もう一つの修士論文。「大学院生活8割費やした個人開発の全てを振り返る」 - 揚げログ</a>
+              </li>
+              <li>
+                <a
+                  href="https://agelog.hateblo.jp/entry/2022/12/30/163000"
+                  target="blank"
+                >ラスベガスに行ってAWS re:Invent 2022に参加してきた - 揚げログ</a>
               </li>
             </ul>
           </div>

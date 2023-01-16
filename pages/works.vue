@@ -7,10 +7,7 @@
       <div class="container">
         <div class="category-box">
           <h3>
-            <a
-              href="https://letero.jp"
-              target="_blank"
-            >Letero.jp <mark class="tag">webサイト</mark></a>
+            Letero.jp <mark class="tag">webサイト</mark>
           </h3>
           <div class="item" width="100px">
             <img src="/img/ideoj_logo_alpha.png" width="100px">

@@ -3,8 +3,9 @@
 @import url("./flexbox.css");
 @import url("./categorybox.css");
 
-html, * {
-    font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
+html,
+* {
+  font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
     "Hiragino Kaku Gothic ProN", "Meiryo", "メイリオ", sans-serif;
 }
 
@@ -81,7 +82,7 @@ h2 {
 
 div.body_container {
   margin: auto auto 0;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 li {
