@@ -32,20 +32,20 @@
       <div>
         <h1>Activities</h1>
         <div class="container">
-          <div class="col-md-6 item category-box">
+          <div class=" item category-box">
             <h2>
               <a href="https://agelog.hateblo.jp" target="blank">blog</a>
             </h2>
             <p>制作ノート的なブログ。エンジニアリング、写真、考えたことなどの成果をまとめて記事にする。</p>
           </div>
 
-          <div class="col-md-6 item category-box">
+          <div class=" item category-box">
             <h2>
               <a href="https://zenn.dev/karaage" target="blank">zenn</a>
             </h2>
             <p>技術的な知見を書き残すテックブログ。</p>
           </div>
-          <div class="col-md-6 item category-box">
+          <div class=" item category-box">
             <h2>
               <a href="https://scrapbox.io/krgpi/" target="blank">scrapbox</a>
             </h2>
