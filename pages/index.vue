@@ -8,7 +8,7 @@
         <div>
           <h1><b>Karaage</b></h1>
           <h4>
-            a.k.a Yuki NOAKI, Software Engineer at Tokyo, Japan
+            a.k.a. Yuki NOAKI, Software Engineer at Tokyo, Japan
           </h4>
         </div>
       </div>

@@ -19,9 +19,9 @@
           <p>You can sync sticky note via iCloud.</p>
           <h4>Features</h4>
           <ul>
-            <li>It has an organize window, that you can choose which note you would like to display. You can also display this window from menubar.</li>
+            <li>It has an organize window, that you can choose notes which you would like to display. You can also display this window from menubar.</li>
             <li>Note can be pinned. Pinned note is always display front even if you would select other app window.</li>
-            <li>You can set color of sticky note, and it also be synced via iCloud.</li>
+            <li>You can set color of note, and it also be synchronized via iCloud.</li>
           </ul>
           <p><i>Coming soon... maybe i can release it by March 2023.</i></p>
         </div>
