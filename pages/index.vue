@@ -6,29 +6,31 @@
           <img src="/img/karaage_free.png" alt="icon" style="border-radius: 50%; max-width: 48px;">
         </div>
         <div>
-          <h1><b>Karaage / Yuki</b></h1>
-          <h3>
-            Software Engineer (<a href="https://twitter.com/krgpi" target="blank">@krgpi</a>)
-          </h3>
+          <h1><b>Karaage</b></h1>
+          <h4>
+            a.k.a Yuki NOAKI, Software Engineer at Tokyo, Japan
+          </h4>
         </div>
       </div>
       <div>
         <p>
-          個人の活動として、スタートアップの立ち上げや成長をエンジニアリング面&プロダクトマネジメント面から支える仕事をしてます。 / PdM, PMM, iOS, Flutter, GCP(PCD保有), AWS,
-          Notion, Figma, ...etc / 趣味で写真, エレキ, (バイク, 車; 今は乗ってない)など
+          スタートアップの立ち上げや成長を、エンジニアリングとプロダクトマネジメントで支える仕事をしている。
         </p>
-        <b>
-          お仕事についての詳細はこちらの<a href="https://ikaraage.notion.site/Yuki-karaage-4872c1716b394f0c90fb3c92582df931"
-            target="blank">Notion</a>より
-        </b>
-
-        <h3>Keywords</h3>
-        <p>プロダクト志向, 戦略と狂気, 破壊と創造</p>
+        <p>
+          skills: PdM, iOS, Flutter, GCP(PCD保有), AWS,
+          Notion, Figma, ...etc<br>
+          hobbies: 📸 🎸 🚘
+        </p>
+        <p>
+          <a
+            href="https://ikaraage.notion.site/Yuki-karaage-4872c1716b394f0c90fb3c92582df931"
+            target="blank"
+          >Skill Sheet (Notion)</a>
+        </p>
       </div>
-
+      <hr>
       <div>
-        <h1>最新情報</h1>
-
+        <h1>Activities</h1>
         <div class="container">
           <div class="col-md-6 item category-box">
             <h2>
@@ -50,8 +52,9 @@
             <p>調べたことをまとめておく場所。</p>
           </div>
         </div>
+        <hr>
         <div>
-          <h1>おすすめ記事</h1>
+          <h1>Recommended Posts (Japanese only) / おすすめ記事</h1>
           <div class="container">
             <h3>開発</h3>
             <ul>
@@ -64,8 +67,10 @@
                   - 揚げログ</a>
               </li>
               <li>
-                <a href="https://agelog.hateblo.jp/entry/2019/02/21/181727"
-                  target="blank">enPiTビジネスシステムデザイン分野ワークショップ2018に参加してきた - 揚げログ
+                <a
+                  href="https://agelog.hateblo.jp/entry/2019/02/21/181727"
+                  target="blank"
+                >enPiTビジネスシステムデザイン分野ワークショップ2018に参加してきた - 揚げログ
                 </a>
               </li>
               <li>

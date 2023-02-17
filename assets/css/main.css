@@ -10,8 +10,6 @@ html,
 }
 
 body {
-  font-family: "Rajdhani", "ヒラギノ角ゴ ProN W3", "Lucida Grande",
-    "Hiragino Kaku Gothic ProN", "Meiryo", "メイリオ", sans-serif;
   /*background-image: url(https://farm5.staticflickr.com/4463/24249389938_71e68a7a9a_k_d.jpg);*/
   background-color: rgba(0, 0, 0, 0.7);
   background-repeat: no-repeat;

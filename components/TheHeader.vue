@@ -3,7 +3,7 @@
     <title>karaage - Portfolio</title>
     <div id="header">
       <h1 style="margin: 0px;">
-        <a href="/">Portfolio</a>
+        <a href="/">Karaage</a>
       </h1>
       <a href="/">Home</a>
       <a href="/works">Works</a>
