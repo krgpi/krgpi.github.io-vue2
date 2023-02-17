@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'iKaraage - Portfolio',
+    title: 'Karaage - Software Engineer',
     htmlAttrs: {
       lang: 'ja'
     },
