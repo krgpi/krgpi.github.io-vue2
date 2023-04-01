@@ -22,10 +22,8 @@
           hobbies: 📸 🎸 🚘
         </p>
         <p>
-          <a
-            href="https://ikaraage.notion.site/Yuki-karaage-4872c1716b394f0c90fb3c92582df931"
-            target="blank"
-          >Skill Sheet (Notion)</a>
+          <a href="https://ikaraage.notion.site/Yuki-karaage-4872c1716b394f0c90fb3c92582df931" target="blank">Skill Sheet
+            (Notion)</a>
         </p>
       </div>
       <hr>
@@ -54,7 +52,7 @@
         </div>
         <hr>
         <div>
-          <h1>Recommended Posts (Japanese only) / おすすめ記事</h1>
+          <h1>Recommended Posts / おすすめ記事</h1>
           <div class="container">
             <h3>開発</h3>
             <ul>
@@ -67,10 +65,8 @@
                   - 揚げログ</a>
               </li>
               <li>
-                <a
-                  href="https://agelog.hateblo.jp/entry/2019/02/21/181727"
-                  target="blank"
-                >enPiTビジネスシステムデザイン分野ワークショップ2018に参加してきた - 揚げログ
+                <a href="https://agelog.hateblo.jp/entry/2019/02/21/181727"
+                  target="blank">enPiTビジネスシステムデザイン分野ワークショップ2018に参加してきた - 揚げログ
                 </a>
               </li>
               <li>
