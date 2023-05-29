@@ -10,8 +10,7 @@
         <h2>2018.3-</h2>
         <p><b>朝日印刷株式会社</b></p>
         <p>
-          プロダクトマネジメント, macOSアプリ開発, iOSアプリ開発, webフロントエンド開発,
-          バックエンド開発, アーキテクティング, エンジニア採用等
+          Product Manager, Engineering Manager, Software Engineer
         </p>
       </div>
 
@@ -19,7 +18,7 @@
         <h2>2023.5-</h2>
         <p><b>株式会社CoeFont</b></p>
         <mark class="tag">フルタイム</mark>
-        <p />
+        <p>Product Manager, Engineering Manager, Software Engineer</p>
       </div>
 
       <hr>
@@ -28,7 +27,7 @@
       <div class="category-box">
         <h2>2022.1-2022.12</h2>
         <p><b>株式会社WindHole</b></p>
-        <p>最高技術責任者CTO・プロダクトオーナー・プロダクトマネージャー・Flutterアプリの開発・サービス設計・UIデザイン等</p>
+        <p>Product Owner, Product Manager</p>
       </div>
 
       <div class="category-box">
@@ -36,7 +35,7 @@
         <p>
           <b>ピクシブ株式会社</b>
         </p><mark class="tag">フルタイム</mark>
-        <p>新規事業部R&DでのiOSアプリの開発等</p>
+        <p>Software Engineer</p>
       </div>
 
       <div class="category-box">
@@ -53,6 +52,7 @@
           <b>筑波大学システム情報工学研究科</b><br>
           知能機能システム専攻 博士前期課程修了
         </p>
+        <p>Master of Engineering, University of Tsukuba</p>
       </div>
 
       <div class="category-box">
@@ -61,6 +61,7 @@
           <b>筑波大学</b>
           理工学群工学システム学類卒業
         </p>
+        <p>Bachelor of Engineering, University of Tsukuba</p>
       </div>
     </div>
   </div>

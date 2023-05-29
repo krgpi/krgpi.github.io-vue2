@@ -2,6 +2,7 @@
   <div class="main_body">
     <div class="body_container">
       <div class="container">
+        For creators, developers, and everyone who build future, I provide powerful tools make your work efficient extremely.
         <h1>macOS App</h1>
         <div class="category-box">
           <h2>
@@ -30,7 +31,7 @@
             Cloud Stickies iOS
           </h2>
           <p>You can sync sticky note via iCloud.</p>
-          <p><i>Coming soon... maybe i can release it by June 2023.</i></p>
+          <p><i>Coming soon... maybe I can release it by June 2023.</i></p>
         </div>
       </div>
     </div>
