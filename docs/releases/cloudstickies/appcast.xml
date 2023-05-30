@@ -4,11 +4,11 @@
         <title>Cloud Stickies</title>
         <item>
             <title>1.0</title>
-            <pubDate>Tue, 23 May 2023 00:46:35 +0900</pubDate>
+            <pubDate>Tue, 30 May 2023 09:24:43 +0900</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://krgpi.github.io/releases/cloudstickies/CloudStickiesInstaller.dmg" length="5404448" type="application/octet-stream" sparkle:edSignature="d7OSL/IgO/0FNPdDywJNG/RtZm00oeqKttO4CEPJ/pDRW7GvSv91STm+WCi5Pf6+l5kKHWjG65K43ZVPZ+8/Aw=="/>
+            <enclosure url="https://krgpi.github.io/releases/cloudstickies/CloudStickiesInstaller.dmg" length="1573533" type="application/octet-stream" sparkle:edSignature="X7BrEG0roS7hECyNmx0Mg3VCN14OEjLcf8gRuGNgV4wC8ksPXgn6Gl00+7C0K2xvZHbW16GtTrww1RvuE/urCQ=="/>
         </item>
     </channel>
 </rss>
