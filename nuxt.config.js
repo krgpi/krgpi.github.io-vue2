@@ -28,7 +28,21 @@ export default {
         href:
           'https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css'
       }
-    ]
+    ],
+    script: [
+      {
+        type: 'text/javascript',
+        innerHTML: `(function(c,l,a,r,i,t,y){
+                      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                    })(window, document, "clarity", "script", "j5uhsf4u7n");`
+      }
+    ],
+    // スクリプトをインラインで追加するために以下のオプションも設定します。
+    __dangerouslyDisableSanitizersByTagID: {
+      'script-in-head': ['innerHTML']
+    }
   },
   googleAnalytics: {
     id: 'G-EFW2B48B8G'
