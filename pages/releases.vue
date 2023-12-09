@@ -9,7 +9,7 @@
             Cloud Stickies
           </h2>
           <p>iCloudで同期できる付箋アプリです。</p>
-          <p><b><a href="/releases/cloudstickies/CloudStickiesInstaller-1.0.1.dmg">ダウンロード / Download</a></b></p>
+          <p><b><a href="/releases/cloudstickies/CloudStickiesInstaller-1.0.3.dmg">ダウンロード / Download</a></b></p>
           <h4>特徴</h4>
           <ul>
             <li>付箋を整理するウィンドウがあり、これはメニューバーから表示することもできます</li>
@@ -31,7 +31,7 @@
             Cloud Stickies iOS
           </h2>
           <p>You can sync sticky note via iCloud.</p>
-          <p><i>Coming soon... maybe I can release it by June 2023.</i></p>
+          <p><i>Coming soon... maybe I can release it by Feb 2024.</i></p>
         </div>
       </div>
     </div>
