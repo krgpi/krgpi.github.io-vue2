@@ -9,7 +9,7 @@
             Cloud Stickies
           </h2>
           <p>iCloudで同期できる付箋アプリです。</p>
-          <p><b><a href="/releases/cloudstickies/CloudStickiesInstaller-1.0.5.zip">ダウンロード / Download</a></b></p>
+          <p><b><a href="/releases/cloudstickies/CloudStickies-1.0.5.zip">ダウンロード / Download</a></b></p>
           <h4>特徴</h4>
           <ul>
             <li>付箋を整理するウィンドウがあり、これはメニューバーから表示することもできます</li>
